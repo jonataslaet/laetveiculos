@@ -33,7 +33,7 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     implementation("io.micronaut:micronaut-validation")
     implementation("redis.clients:jedis:4.1.0")
-
+    implementation("io.micronaut.kafka:micronaut-kafka")
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
 }
