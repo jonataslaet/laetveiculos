@@ -10,4 +10,8 @@ class VendaService(private val vendaRepository: VendaRepository) {
     fun create(venda: Venda){
        vendaRepository.create(venda)
     }
+
+    fun getAll(): List<Venda> {
+        return vendaRepository.getAll();
+    }
 }

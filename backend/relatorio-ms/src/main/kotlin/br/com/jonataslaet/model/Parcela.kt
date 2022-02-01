@@ -1,8 +1,10 @@
 package br.com.jonataslaet.model
 
+import br.com.jonataslaet.model.annotations.NoArg
 import java.math.BigDecimal
 
+@NoArg
 data class Parcela(
-    val valor: BigDecimal,
-    val dataVencimento: String
+    var valor: BigDecimal,
+    var dataVencimento: String
 )
