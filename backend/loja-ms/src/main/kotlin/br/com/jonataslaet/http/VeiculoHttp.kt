@@ -7,7 +7,7 @@ import io.micronaut.http.annotation.PathVariable
 import io.micronaut.http.client.annotation.Client
 import io.micronaut.retry.annotation.CircuitBreaker
 
-@Client("http://localhost:8080")
+@Client("veiculo-ms")
 @CircuitBreaker
 interface VeiculoHttp {
 
